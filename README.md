@@ -1,2 +1,1 @@
-# tica
-https://www.thoratica.net
+# sungho0205
