@@ -5,11 +5,12 @@
 
 body {
   margin: 0;
-  cursor: pointer;
+  cursor: auto;
 }
 
 img {
   border-radius: .7rem;
+  cursor: help;
 }
 
 header {
@@ -139,6 +140,7 @@ footer {
   font-weight: 500;
   width: max-content;
   height: max-content;
+  cursor: auto;
 }
 
 .desc {
