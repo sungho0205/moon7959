@@ -7,17 +7,12 @@ Array.from(document.querySelectorAll('.pill')).forEach(el => {
             case 'JavaScript':
                 document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="85.7"></div><br>자바스크립트는 웹 브라우저 내에서 주로 사용되는 스크립트 프로그래밍 언어입니다. <a href="https://ko.wikipedia.org/wiki/자바스크립트" target="_blank">위키백과</a>'
                 break
-            case 'TypeScript':
-                document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="20.5"></div><br>타입스크립트는 별로 끌리지는 않네요. <a href="https://ko.wikipedia.org/wiki/타입스크립트" target="_blank">위키백과</a>'
-                break
+
             case 'HTML':
                 document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="99.9"></div><br>HTML 초보입니다. <a href="https://ko.wikipedia.org/wiki/HTML" target="_blank">위키백과</a>'
                 break
             case 'CSS':
                 document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="84.8"></div><br>CSS는 마크업 언어가 실제 표시되는 방법을 기술하는 언어입니다. <a href="https://ko.wikipedia.org/wiki/종속형_시트" target="_blank">위키백과</a>'
-                break
-            case 'Python':
-                document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="7"></div><br>파이썬을 꼭 배워야 할까요? <a href="https://ko.wikipedia.org/wiki/파이썬" target="_blank">위키백과</a>'
                 break
             default:
                 document.querySelector('.about-skilled h2').classList.remove('active')
