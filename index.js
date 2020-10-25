@@ -1,3 +1,10 @@
+var imgs = document.getElementsByTagName("img");
+for( var x=0; x < imgs.length; x++ ) {
+ imgs[x].onclick = function(){
+    window.location.href='profile.html';
+ };
+}
+
 Array.from(document.querySelectorAll('.pill')).forEach(el => {
     el.addEventListener('click', e => {
         let bg = e.target.style.backgroundColor, color = e.target.style.color
