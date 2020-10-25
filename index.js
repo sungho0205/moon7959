@@ -20,6 +20,9 @@ Array.from(document.querySelectorAll('.pill')).forEach(el => {
             case 'CSS':
                 document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="84.8"></div><br>CSS는 마크업 언어가 실제 표시되는 방법을 기술하는 언어입니다. <a href="https://ko.wikipedia.org/wiki/종속형_시트" target="_blank">위키백과</a>'
                 break
+            case 'Entry':
+                document.querySelector('.about-skilled .desc').innerHTML = '목표 숙련도<div class="progress" data-percent="100"></div><br>엔트리는 기본이죠!<a href="https://namu.wiki/w/엔트리(교육 플랫폼)" target="_blank"> 나무위키</a>'
+                break
             default:
                 document.querySelector('.about-skilled h2').classList.remove('active')
                 document.querySelector('.about-skilled h2').innerHTML = '각 언어를 클릭해서 자세히 알아보세요!'
