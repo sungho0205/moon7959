@@ -1,7 +1,7 @@
 var imgs = document.getElementsByTagName("img");
 for( var x=0; x < imgs.length; x++ ) {
  imgs[x].onclick = function(){
-    window.location.href='profile.html';
+    window.location.href='info/profile.html';
  };
 }
 
