@@ -13,6 +13,11 @@ for( var x=0; x < imgs.length; x++ ) {
  };
 }
 
+var profiletxt = document.getElementById("profile");
+ profiletxt.onclick = function(){
+    window.location.href='info/sungho0205.html';
+ };
+
 Array.from(document.querySelectorAll('.pill')).forEach(el => {
     el.addEventListener('click', e => {
         let bg = e.target.style.backgroundColor, color = e.target.style.color
