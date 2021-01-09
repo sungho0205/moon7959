@@ -2,16 +2,15 @@ var getDate = function() {
     var date = new Date();
     var year = date.getFullYear();
     var month = date.getMonth() + 1;
-    var date = date.getDate();
-    document.getElementById("date").innerHTML=(`${year}-${month}-${date}`);
+    var day = date.getDate();
+    document.getElementById("date").innerHTML=(`${year}-${month}-${day}`);
 }
 
 var imgs = document.getElementsByTagName("img");
-for( var x=0; x < imgs.length; x++ ) {
+for( var x=0; x < imgs.length; x++ )
  imgs[x].onclick = function(){
     window.location.href='info/profile.html';
  };
-}
 
 var profiletxt = document.getElementById("profile");
  profiletxt.onclick = function(){
