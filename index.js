@@ -13,7 +13,7 @@ for( var x=0; x < imgs.length; x++ )
  };
 
  function darkmod() {
-    window.location.href='https://sungho0205.ml'
+    window.location.href='https://dark.sungho0205.ml'
 }
 
 var profiletxt = document.getElementById("profile");
