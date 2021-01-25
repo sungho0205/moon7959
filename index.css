@@ -12,6 +12,14 @@
     cursor: help;
   }
   
+  #whitemod {
+    margin-left: 2%;
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    color: #ff0000;
+    cursor: text;
+  }
+
   header {
     display: flex;
     flex-direction: column;
