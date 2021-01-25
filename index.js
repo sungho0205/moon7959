@@ -6,15 +6,15 @@ var getDate = function() {
     document.getElementById("date").innerHTML=(`${year}-${month}-${day}`);
 }
 
-function whitemod() {
-    window.location.href='https://sungho0205.ml'
-}
-
 var imgs = document.getElementsByTagName("img");
 for( var x=0; x < imgs.length; x++ )
  imgs[x].onclick = function(){
     window.location.href='info/profile.html';
  };
+
+ function darkmod() {
+    window.location.href='https://dark.sungho0205.ml'
+}
 
 var profiletxt = document.getElementById("profile");
  profiletxt.onclick = function(){
