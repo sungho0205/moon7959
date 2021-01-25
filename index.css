@@ -1,6 +1,24 @@
 * {
     font-family: 'Metropolis', 'Spoqa Han Sans';
     user-select: none;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  #header {
+    background-color: red;
+  }
+  
+  body {
+    color: white;
+  }
+
+  #whitemod {
+    margin-left: 2%;
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    color: #ff0000;
+    cursor: text;
   }
   
   body {
@@ -41,7 +59,7 @@
   section {
     width: 50vw;
     border: 1px solid #e2e2e2;
-    border-radius: .7rem;
+    border-radius: 10px;
     margin: 1rem auto;
   }
   
@@ -135,7 +153,7 @@
   
   .project h2, .contact h2 {
     margin: 1rem 1rem .3rem 1rem;
-    color: black;
+    color: white;
     font-weight: 500;
     width: max-content;
     height: max-content;
@@ -146,11 +164,11 @@
   }
   
   .contact .desc {
-    color: black;
+    color: white;
   }
   
   .about-skilled h2.active {
-    color: black;
+    color: white;
   }
   
   a {
