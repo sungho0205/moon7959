@@ -22,9 +22,12 @@ img {
   cursor: text;
 }
 
-del {
-  color: grey;
+#del {
+  color: grey !important;
+  text-decoration: line-through;
+  white-space:nowrap !important;
 }
+#del:hover{text-decoration: none;}
 
 #copy {
   color: white !important;
