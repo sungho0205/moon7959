@@ -1,241 +1,282 @@
 * {
-    font-family: 'Metropolis', 'Spoqa Han Sans';
-    user-select: none;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  img {
-    border-radius: .7rem;
-    cursor: help;
-  }
-  
-  #whitemod {
-    margin-left: 2%;
-    background-color: #e2e2e2;
-    border-radius: 7px;
-    color: #ff0000;
-    cursor: text;
-  }
+  font-family: "Metropolis", "Spoqa Han Sans";
+  user-select: none;
+  background-color: black;
+  border-radius: 10%;
+}
 
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 25vh;
-    background-color: #ff0000;
-    border-radius: 0 0 2rem 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  header h1 {
-    font-size: 5rem;
-    color: white;
-    width: max-content;
-    font-weight: 800;
-  }
-  
-  header h1::selection {
-    color: white;
-    background-color: #6db6ff;
-    -webkit-text-fill-color: white;
-    border-radius: 1rem;
-  }
-  
+body {
+  margin: 0;
+}
+
+img {
+  border-radius: 0.7rem;
+  cursor: help;
+}
+
+#whitemod {
+  margin-left: 2%;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  color: #ff0000;
+  cursor: text;
+}
+
+#copy {
+  color: white !important;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #ff0000;
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 5rem;
+  color: white;
+  width: max-content;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+}
+
+header h1::selection {
+  color: white;
+  background-color: #6db6ff;
+  -webkit-text-fill-color: white;
+  border-radius: 1rem;
+}
+
+section {
+  width: 50vw;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.7rem;
+  margin: 1rem auto;
+  color: white;
+}
+
+section main {
+  padding: 1rem 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 2rem 2rem 0 0;
+  margin-top: 2rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+}
+
+#about * {
+  margin: 0;
+}
+
+#about h2,
+#skills h2 {
+  margin: 0.1rem 0 0.7rem 0;
+  color: white;
+}
+
+#about .profile {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#about .profile img {
+  height: 5rem;
+}
+
+#about .profile .profile-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 1rem;
+}
+
+#about .profile .profile-text h2 {
+  margin: 0;
+  color: white;
+}
+
+.pill,
+.pill-p {
+  border-radius: 9999rem;
+  font-weight: 500;
+  width: max-content;
+  height: max-content;
+  padding: 0.3rem 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.skilled-lang {
+  display: flex;
+  overflow: auto;
+  color: white;
+}
+
+.about-skilled {
+  margin: 0.5rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.7rem;
+  min-height: 1rem;
+  color: white;
+}
+
+.about-skilled h2 {
+  margin: 1.5rem auto !important;
+  color: #7e7e7e;
+  font-weight: 500;
+  width: max-content;
+  height: max-content;
+  color: white;
+}
+
+.project,
+.contact {
+  margin: 0.5rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.7rem;
+  min-height: 1rem;
+  color: white;
+}
+
+.project h2,
+.contact h2 {
+  margin: 1rem 1rem 0.3rem 1rem;
+  color: white;
+  font-weight: 500;
+  width: max-content;
+  height: max-content;
+  color: white;
+}
+
+.desc {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.contact .desc {
+  color: white;
+}
+
+.about-skilled h2.active {
+  color: white;
+}
+
+a {
+  color: #0059ff;
+  text-decoration: none;
+}
+
+p {
+  text-decoration: none;
+  font-weight: 200;
+  color: white !important;
+}
+a:active,
+a:focus {
+  outline: none;
+  border: none;
+}
+
+.progress {
+  height: 1.5rem;
+  width: 100%;
+  background-color: #dadada;
+  border-radius: 9999rem;
+  color: white;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  transition: 1s;
+  border-radius: 9999rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+div {
+  color: white;
+}
+
+.number {
+  padding: 0 0.7rem;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+}
+
+@media (max-width: 1280px) {
   section {
-    width: 50vw;
-    border: 1px solid #e2e2e2;
-    border-radius: .7rem;
-    margin: 1rem auto;
+    width: 60vw;
+    color: white;
   }
-  
-  section main {
-    padding: 1rem 1.5rem;
+}
+
+@media (max-width: 960px) {
+  header h1 {
+    font-size: 4rem;
+    color: white;
+    background-color: transparent;
   }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem 0;
-    border: 1px solid #e2e2e2;
-    border-radius: 2rem 2rem 0 0;
-    margin-top: 2rem;
-  }
-  
-  #about {
-    display: flex;
-    flex-direction: column;
-    align-items: initial;
-  }
-  
-  #about * {
-    margin: 0;
-  }
-  
-  #about h2, #skills h2 {
-    margin: .1rem 0 .7rem 0;
-  }
-  
-  #about .profile {
-    display: flex;
-    align-items: center;
-  }
-  
-  #about .profile img {
-    height: 5rem;
-  }
-  
-  #about .profile .profile-text {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-  }
-  
-  #about .profile .profile-text h2 {
-    margin: 0;
-  }
-  
-  .pill, .pill-p {
-    border-radius: 9999rem;
-    font-weight: 500;
-    width: max-content;
-    height: max-content;
-    padding: .3rem .7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 .3rem;
-    cursor: pointer;
-  }
-  
-  .skilled-lang {
-    display: flex;
-    overflow: auto;
-  }
-  
-  .about-skilled {
-    margin: .5rem;
-    border: 1px solid #e2e2e2;
-    border-radius: .7rem;
-    min-height: 1rem;
-  }
-  
   .about-skilled h2 {
-    margin: 1.5rem auto !important;
-    color: #7e7e7e;
-    font-weight: 500;
-    width: max-content;
-    height: max-content;
+    font-size: 1rem;
+    color: white;
   }
-  
-  .project, .contact {
-    margin: .5rem;
-    border: 1px solid #e2e2e2;
-    border-radius: .7rem;
-    min-height: 1rem;
+  section {
+    width: 70vw;
+    color: white;
   }
-  
-  .project h2, .contact h2 {
-    margin: 1rem 1rem .3rem 1rem;
-    color: black;
-    font-weight: 500;
-    width: max-content;
-    height: max-content;
+}
+
+@media (max-width: 720px) {
+  section {
+    width: 80vw;
+    color: white;
   }
-  
-  .desc {
-    margin: 0 1rem 1rem 1rem;
+}
+
+@media (max-width: 680px) {
+  section {
+    width: 90vw;
+    color: white;
   }
-  
-  .contact .desc {
-    color: black;
+}
+
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 3rem;
+    color: white;
   }
-  
-  .about-skilled h2.active {
-    color: black;
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 95vw;
+    color: white;
   }
-  
-  a {
-    color: #0059ff;
-    text-decoration: none;
-  }
-  
-  p {
-    text-decoration: none;
-    font-weight: 200;
-  }
-  a:active, a:focus {
-    outline: none;
-    border: none;
-  }
-  
-  .progress {
-    height: 1.5rem;
-    width: 100%;
-    background-color: #dadada;
-    border-radius: 9999rem;
-  }
-  
-  .progress-bar {
-    height: 100%;
-    width: 0%;
-    transition: 1s;
-    border-radius: 9999rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  .number {
-    padding: 0 .7rem;
-    font-weight: 600;
-  }
-  
-  @media (max-width: 1280px) {
-    section {
-      width: 60vw;
-    }
-  }
-  
-  @media (max-width: 960px) {
-    header h1 {
-      font-size: 4rem;
-    }
-    .about-skilled h2 {
-      font-size: 1rem;
-    }
-    section {
-      width: 70vw;
-    }
-  }
-  
-  @media (max-width: 720px) {
-    section {
-      width: 80vw;
-    }
-  }
-  
-  @media (max-width: 680px) {
-    section {
-      width: 90vw;
-    }
-  }
-  
-  @media (max-width: 640px) {
-    header h1 {
-      font-size: 3rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    section {
-      width: 95vw;
-    }
-  }
-  
+}
