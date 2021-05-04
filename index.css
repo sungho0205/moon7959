@@ -22,6 +22,10 @@ img {
   cursor: text;
 }
 
+del {
+  color: grey;
+}
+
 #copy {
   color: white !important;
 }
