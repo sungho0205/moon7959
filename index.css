@@ -5,6 +5,10 @@
   border-radius: 10%;
 }
 
+body {
+  padding: none;
+}
+
 img {
   border-radius: 0.7rem;
   cursor: help;
