@@ -1,12 +1,8 @@
 * {
-  font-family: "Metropolis", "Spoqa Han Sans";
+  font-family: 'Metropolis', 'Spoqa Han Sans';
   user-select: none;
   background-color: black;
   border-radius: 10%;
-}
-
-body {
-  margin: 0;
 }
 
 img {
@@ -25,14 +21,26 @@ img {
 #del {
   color: grey !important;
   text-decoration: line-through;
-  white-space:nowrap !important;
+  white-space: nowrap !important;
 }
-#del:hover{text-decoration: none;}
+#del:hover {
+  text-decoration: none;
+}
 
 #copy {
   color: white !important;
 }
 
+input {
+  text-align: center !important;
+  padding-top: 10px;
+  background: rgb(0, 0, 0);
+  clear: center;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+.button {
+  background-color: white;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -44,7 +52,9 @@ header {
   border-radius: 0 0 2rem 2rem;
   margin-bottom: 2rem;
 }
-
+label {
+  font-family: Metropolis;
+}
 header h1 {
   font-size: 5rem;
   color: white;
@@ -68,7 +78,17 @@ section {
   margin: 1rem auto;
   color: white;
 }
-
+.email {
+  width: 50vw;
+  border: 3px solid #e2e2e2;
+  border-radius: 0.9rem;
+  margin: 1rem auto;
+  color: white;
+}
+#mc-embedded-subscribe {
+  border-radius: 0.9rem;
+  color: rgb(0, 0, 0);
+}
 section main {
   padding: 1rem 1.5rem;
 }
