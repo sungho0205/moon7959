@@ -323,6 +323,7 @@ footer {
 }
 
 .project h2,
+.add,
 .contact h2 {
   margin: 1rem 1rem 0.3rem 1rem;
   color: white;
